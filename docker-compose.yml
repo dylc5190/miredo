@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  miredo_client_1:
+    image: miredo
+    container_name: miredo_client_1
+    privileged: true
+    stdin_open: true
+    tty: true
+  miredo_client_2:
+    image: miredo
+    container_name: miredo_client_2
+    privileged: true
+    stdin_open: true
+    tty: true
